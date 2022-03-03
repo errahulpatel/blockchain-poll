@@ -1,8 +1,11 @@
 # BlockchainPoll
 
 Angular CLI: 9.1.3
+
 Node: 12.16.3
+
 NPM : 6.14.4
+
 OS: win32 x64
 
 
