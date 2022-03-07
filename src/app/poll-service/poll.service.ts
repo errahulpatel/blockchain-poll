@@ -1,7 +1,7 @@
+import { Poll, PollForm, PollVote } from './../types';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { delay } from 'rxjs/operators';
-import { Poll } from '../types';
 
 @Injectable({
   providedIn: 'root',
@@ -32,11 +32,11 @@ export class PollService {
     ]).pipe(delay(2000));
   }
 
-  vote(pollId: number, voteNumber: number) {
-    console.log(pollId, voteNumber);
+  vote(pollVoted: PollVote) {
+    console.log(pollVoted);
   }
 
-  createPoll(question: string, thumbnail: string, options: string) {
-    console.log(question, thumbnail, options);
+  createPoll(poll: PollForm) {
+    console.log(poll);
   }
 }
