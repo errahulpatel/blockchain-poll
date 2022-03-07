@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PollCreateComponent } from './poll-create/poll-create.component';
+import { PollComponent } from './poll/poll.component';
 
 @NgModule({
-  declarations: [AppComponent, PollCreateComponent],
+  declarations: [AppComponent, PollCreateComponent, PollComponent],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
