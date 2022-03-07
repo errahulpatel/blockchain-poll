@@ -40,4 +40,5 @@ Smart contracts are simply programs stored on a blockchain that run when predete
 Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system
 
 IDE : https://remix.ethereum.org
+
 Ref. Screen shot  : src\assets\diagram\3.remix_solidityIDE.jpg
