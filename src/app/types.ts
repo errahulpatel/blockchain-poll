@@ -4,6 +4,7 @@ export interface Poll {
   results: number[]; // [0,0,0,5,7,2]
   options: string[]; //["MOnday", "Tuesday", "Wednesday"...]
   thumbnail: string; //https://image.png
+  voted: boolean;
 }
 
 export interface Voter {
