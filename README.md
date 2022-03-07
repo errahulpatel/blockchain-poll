@@ -1,5 +1,7 @@
 # BlockchainPoll
 
+## It has development of decentralized web application powered by Ethereum blockchain!
+
 Angular CLI: 9.1.3
 
 Node: 12.16.3
