@@ -2,6 +2,8 @@
 
 ## It has development of decentralized web application powered by Ethereum blockchain!
 
+Ref. Screen shot  : src\assets\diagram\Course_overview.jpg
+
 Angular CLI: 9.1.3
 
 Node: 12.16.3
@@ -10,12 +12,10 @@ NPM : 6.14.4
 
 OS: win32 x64
 
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Angular app Flow
-Ref. Screen shot  : src\assets\diagram\1.angular_app.jpg
-
+Ref. Screen shot  : src\assets\diagram\1.angular_app.jpg 
 
 ## Development server
 
