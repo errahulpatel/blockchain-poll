@@ -31,9 +31,11 @@ export class AppComponent {
 
   handlePollCreate(Poll: PollForm) {
     this.ps.createPoll(Poll);
+    this.showForm = false;
   }
 
   handlePollVote(pollVoted: PollVote) {
     this.ps.vote(pollVoted);
+    this.activePoll = null;
   }
 }

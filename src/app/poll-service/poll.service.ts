@@ -28,7 +28,7 @@ export class PollService {
     // return of([
     //   {
     //     id: 1,
-    //     question: 'Do you like gogs or cates?',
+    //     question: 'Do you like dogs or cates?',
     //     results: [0, 5, 7],
     //     options: ['Cates', 'Dogs', 'None'],
     //     voted: true,

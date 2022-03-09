@@ -14,6 +14,10 @@ export class PollCreateComponent {
   @Output() pollCreated: EventEmitter<PollForm> = new EventEmitter();
 
   constructor(private fb: FormBuilder) {
+this.loadForm();
+  }
+
+  loadForm(){
     this.pollForm = this.fb.group({
       question: this.fb.control('', [Validators.required]),
       image: this.fb.control(''),
@@ -35,5 +39,6 @@ export class PollCreateComponent {
     };
 
     this.pollCreated.emit(formData);
+
   }
 }

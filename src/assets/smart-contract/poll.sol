@@ -60,6 +60,8 @@ contract PollContract {
 
         voters[msg.sender].votedIds.push(_pollId);
         voters[msg.sender].votedMap[_pollId] = true;
+
+        emit PollCreated(_pollId);
     }
 
     function getVoter(address _id) external view returns(address, uint256[] memory) {
